@@ -1,0 +1,32 @@
+{
+  "name": "glitterkit",
+  "description": "GlitterKit UI: Cross framework component library with a focus on flexibility and customization. Learn more at glitterkit-ui.com",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "glitterkit": "./bin/index.js"
+  },
+  "author": "dream engineering ltd.",
+  "license": "SEE LICENSE IN license.md",
+  "engines": {
+    "node": ">=22.9.0"
+  },
+  "keywords": [
+    "component",
+    "component-cli",
+    "component-framework",
+    "component-library",
+    "components",
+    "glitterkit",
+    "glitterkit ui",
+    "glitterkit-ui",
+    "glitterkitui",
+    "mui alternative",
+    "react-components",
+    "shadcn alternative",
+    "ui-components",
+    "web-components",
+    "ui",
+    "ux"
+  ]
+}
