@@ -1,18 +1,19 @@
-# GlitterKit UI
+# glitterkit UI System
 
 Generate flexible, custom components for any frontend.
 
-- CLI based
+- CLI based component generator
+- Style syncing
 - Framework agnostic
-- GlitterKit UI App for component customization
 - Non magical
 - Small
 
-Warning: Early work in progress!
+About glitterkit:
 
-- Current list of components is small, but growing by the day
-- Initial releases will be React components, Svelte components are coming next
-- GlitterKit UI app beta will release in summer 2025
+- Current list of components is small, but growing by the week
+- React and Svelte components are currently supported
+- Kit Store with pre-styled kits launching Summer 2025
+- Non breaking changes are a high priority
 - Your early feedback is wanted! Feel free to file a github issue
 
 ## Install
@@ -36,11 +37,11 @@ This generates a `glitterkit.toml` config file in your project root. You can spe
 - `base_dir`: directory for read-only base components
 - `extended_dir`: which directory to extend base components
 - `flavor`: generate component code using this framework + language
-- `library_id`: for syncing with GlitterKit UI App (optional)
+- `kit_id`: for syncing with glitterkit app (optional)
 
 The custom component directory is where you can extend and/or compose base components for intricate customization.
 
-On initialization, `glitterkit setup` will also create a read-only directory for the base components called `glitterkit`. These component files are NOT meant to be edited, and are simply for you to track style changes synced from the GlitterKit UI App. Using the GlitterKit UI app is optional.
+On initialization, `glitterkit setup` will also create a read-only directory for the base components called `glitterkit`. These component files are NOT meant to be edited, and are simply for you to track style changes synced from the glitterkit app. Using the glitterkit app is optional, but it will allow you to buy pre-styled kits or customize the styles of your own kit.
 
 ## Adding base components
 
@@ -59,16 +60,16 @@ The component code will be generated in the base_dir, and is intended to be read
 
 This is useful for modifying the markup structure of complex components that are usually abstracted away in other popular libraries. You can also customize the logic and state.
 
-## GlitterKit UI App (summer 2025)
+## glitterkit app (targeting Oct 2025)
 
-We offer a GUI for customizing the styles of each base component. You can publish a version and run `glitterkit sync` to pull down the style changes into your base components.
+We are working on a Saas web app for customizing the styles of each component. You can publish a version and run `glitterkit sync` to pull down the style changes into your base components.
 
 The style changes will also be reflected in components you have extended.
 
 ### Workflow
 
 1. Developer uses glitterkit base components in project.
-2. Developer/Designer/Stakeholder publishes style changes using GlitterKit UI App (glitterkit-ui.com)
+2. Developer/Designer/Stakeholder publishes style changes using glitterkit App (glitterkit-ui.com)
 3. Developer syncs new style changes into local project and commits to source control.
 4. Developer deploys new code as usual.
 
@@ -86,11 +87,14 @@ Rolling out weekly releases! What components would you like to see next? Drop a 
 - [x] ProgressBar
 - [x] Slider
 - [x] Textarea
+- [x] Checkbox
+- [x] Switch
 - [ ] Select
 - [ ] Avatar
-- [ ] Switch
 - [ ] Tooltip
 - [ ] Rating
+- [ ] Popover
+- [ ] Accordion
 
 ## Learn more
 

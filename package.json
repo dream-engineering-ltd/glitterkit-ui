@@ -1,7 +1,7 @@
 {
   "name": "glitterkit",
-  "description": "GlitterKit UI: Cross framework component library with a focus on flexibility and customization. Learn more at glitterkit-ui.com",
-  "version": "1.0.0",
+  "description": "glitterkit: Cross framework UI component generator with a focus on flexibility and customization. Learn more at glitterkit-ui.com",
+  "version": "1.1.0",
   "type": "module",
   "bin": {
     "glitterkit": "./bin/index.js"

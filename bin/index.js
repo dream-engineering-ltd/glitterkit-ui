@@ -6,7 +6,7 @@ import { spawn } from "node:child_process"
 import { writeFile } from "fs/promises"
 
 const BIN_PATH = path.resolve(import.meta.dirname, "glitterkit")
-const VERSION = "v1.0.0"
+const VERSION = "v1.1.0"
 
 ;(async function () {
   const platform = os.platform()
