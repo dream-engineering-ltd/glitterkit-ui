@@ -12,7 +12,6 @@ About glitterkit:
 
 - Current list of components is small, but growing by the week
 - React and Svelte components are supported as of v1.1.0
-- Kit Store with pre-styled kits launching Summer 2025
 - Non breaking changes are a high priority
 - Your early feedback is wanted! Feel free to file a github issue
 
@@ -64,9 +63,9 @@ The component code will be generated in the base_dir, and is intended to be read
 
 This is useful for modifying the markup structure of complex components that are usually abstracted away in other popular libraries. You can also customize the logic and state.
 
-## glitterkit app (targeting Oct 2025)
+## glitterkit app
 
-We are working on a Saas web app for customizing the styles of each component. You can publish a version and run `glitterkit sync` to pull down the style changes into your base components.
+Coming soon, the glitterkit web app for customizing the styles of each component. You can publish a version and run `glitterkit sync` to pull down the style changes into your base components.
 
 The style changes will also be reflected in components you have extended.
 
