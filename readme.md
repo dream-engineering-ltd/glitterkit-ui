@@ -11,10 +11,14 @@ Generate flexible, custom components for any frontend.
 About glitterkit:
 
 - Current list of components is small, but growing by the week
-- React and Svelte components are currently supported
+- React and Svelte components are supported as of v1.1.0
 - Kit Store with pre-styled kits launching Summer 2025
 - Non breaking changes are a high priority
 - Your early feedback is wanted! Feel free to file a github issue
+
+## Documentation
+
+Documentation for each component here -> https://glitterkit-ui.com/docs
 
 ## Install
 
@@ -75,7 +79,7 @@ The style changes will also be reflected in components you have extended.
 
 This workflow is designed to keep you in control of the code, while allowing stakeholders to change the appearance of components as they wish without introducing breaking changes. You are able to review all style changes and deploy at your discretion.
 
-## Release progress for react
+## Release progress
 
 Rolling out weekly releases! What components would you like to see next? Drop a line in a github issue https://github.com/dream-engineering-ltd/glitterkit-ui
 
